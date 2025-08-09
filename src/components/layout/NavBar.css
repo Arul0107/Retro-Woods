@@ -1,0 +1,79 @@
+/* src/components/NavBar.css */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #e8e8e8;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  top: 0;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #002f34; /* OLX Brand color */
+}
+
+.search-container {
+  display: flex;
+  flex-grow: 1;
+  max-width: 600px;
+  margin: 0 20px;
+  border: 2px solid #002f34;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.location-input {
+  width: 200px;
+  border-right: 1px solid #ccc;
+  border: none;
+}
+
+.search-input {
+  flex-grow: 1;
+  border: none;
+}
+
+.search-button {
+  background-color: #002f34;
+  border: none;
+  border-radius: 0;
+  width: 48px;
+}
+
+.menu-container .ant-menu {
+  line-height: 64px;
+  border-bottom: none;
+}
+
+.nav-menu .ant-menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-item .ant-avatar {
+  background-color: #fde3cf;
+  color: #f56a00;
+}
+
+.sell-button {
+  background: linear-gradient(to right, #23e5a5, #00a49f);
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 0 24px;
+  height: 40px;
+  margin-left: 16px;
+}

@@ -1,0 +1,102 @@
+.admin-dashboard-page {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+}
+
+.admin-dashboard-page h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.admin-dashboard-page p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.table-container {
+  overflow-x: auto;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #f2f2f2;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  font-weight: bold;
+  color: #555;
+}
+
+tr:hover {
+  background-color: #f9f9f9;
+}
+
+.product-link {
+  color: #002f34;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.product-link:hover {
+  text-decoration: underline;
+}
+
+.actions-cell {
+  white-space: nowrap;
+}
+
+.action-btn {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  margin-right: 8px;
+}
+
+.accept-btn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.accept-btn:hover {
+  background-color: #45a049;
+}
+
+.reject-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+.reject-btn:hover {
+  background-color: #da190b;
+}
+.product-table-image{
+    width: 50px;
+}
+.accepted-status {
+  color: green;
+  font-weight: bold;
+}
+
+.rejected-status {
+  color: red;
+  font-weight: bold;
+}

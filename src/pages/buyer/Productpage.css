@@ -1,0 +1,174 @@
+.product-page {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f7f8f9;
+}
+
+.content-wrapper {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.main-content {
+  flex: 2;
+  min-width: 300px;
+}
+
+.sidebar {
+  flex: 1;
+  min-width: 300px;
+}
+
+.image-section {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.main-image {
+  width: 500px; /* Updated width */
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.thumbnail-images {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+}
+
+.thumbnail-image {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.thumbnail-image.active {
+  border: 2px solid #002f34;
+}
+
+.details-card,
+.description-card,
+.price-card,
+.seller-card,
+.location-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.details-card h2,
+.description-card h2,
+.seller-card h3,
+.location-card h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.details-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.details-card li {
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.price-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.share-favorite-icons {
+  /* You can add icons here */
+}
+
+.product-title {
+  font-size: 16px;
+  font-weight: normal;
+  color: #555;
+  margin-top: 5px;
+}
+
+.location-time {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #888;
+  margin-top: 10px;
+}
+
+.seller-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.seller-avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ddd;
+}
+
+.seller-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.seller-name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.member-since {
+  font-size: 12px;
+  color: #888;
+}
+
+.chat-btn,
+.show-number-btn {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #002f34;
+  background-color: transparent;
+  color: #002f34;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.chat-btn:hover,
+.show-number-btn:hover {
+  background-color: #e6e6e6;
+}
+
+.map-placeholder {
+  height: 200px;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #888;
+  border-radius: 8px;
+}
